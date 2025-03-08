@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Safety Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesh.css') }}">  <!-- ✅ Flask link -->
+</head>
+<body>
+
+    <h1>Welcome to Safety Chatbot</h1>
+    <button id="fetchData">Ask AI</button>
+    <input type="text" id="userInput" placeholder="Type your message..." />
+    <button id="sendMessage">Send</button>
+    <p id="responseText"></p>
+
+    <script src="{{ url_for('static', filename='scripth.js') }}"></script>  <!-- ✅ Flask link -->
+</body>
+</html>
